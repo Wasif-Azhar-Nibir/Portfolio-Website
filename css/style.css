@@ -1,0 +1,947 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;	
+}
+
+/*Header section*/
+header{
+	width: 100%;
+	float: left;		
+}
+.header-top{
+	height: 175px;
+	margin: 0 auto;
+	background-color: #87509C;
+}
+.logo{
+
+	width: 20%;
+	float: left;
+	padding: 20px 0px 0px 42px;	
+}
+
+.logo img{
+	width: 100px;
+}
+
+.menu{
+    width: 80%;
+    float: left;
+    margin: -29px 0px 15px -25px;
+    padding: 0px 0px 0px 110px
+	
+}
+
+.menu nav ul{
+	list-style: none;
+	    padding: 2px 0px 0px 15px;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    margin: 0px 0px 0px 110px;
+}
+
+.menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.header-element{
+	height:245px;
+	background-color: #87509C;
+}
+.header-element h2{
+    background-color: #87509C;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 0px 55px 0px;
+}
+.header-element button{	
+    margin: 0 auto;
+    display: block;
+    background-color: #EB7D4B;
+    padding: 16px;
+    border: none;
+    box-shadow: 0px 4px 0px #c86a40;
+    cursor: pointer;
+}
+
+.header-element button p{
+	color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+/*Service section*/
+.services{
+    width: 100%;
+    float: left;	
+}	
+.services-top{
+    width: 100%;
+    float: left;
+    height: 510px;
+	background-color: #17C2A4;
+	margin: 0 auto;
+
+}
+.services-top h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px 20px 0px;
+}
+.services-top span{
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 16%;
+}
+.services-top p{
+	text-align: center;
+    font-size: 20px;
+    padding: 15px 0px 80px 0px;
+}
+.services-branding{
+	background-color: #17C2A4;
+	margin: 0 auto;
+}
+.branding-one{
+ 	background: url(../img/branding.png);
+ 	background-repeat: no-repeat;
+    background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.branding-one h2{
+    text-align: center;
+    color: white;
+    padding: 145px 0px 0px 0px;
+}
+.branding-one p{
+	text-align: center;
+	color: white;
+	padding: 15px 15px;
+}
+.branding-two{
+ 	background: url(../img/design.png);
+ 	background-repeat: no-repeat;
+    background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.branding-two h2{
+    text-align: center;
+    color: white;
+    padding: 145px 0px 0px 0px;
+}
+.branding-two p{
+	text-align: center;
+	color: white;
+	padding: 15px 15px;
+
+}
+.branding-three{
+ 	background: url(../img/devlopment.png);
+ 	background-repeat: no-repeat;
+    background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.branding-three h2{
+    text-align: center;
+    color: white;
+    padding: 145px 0px 0px 0px;
+}
+.branding-three p{
+    text-align: center;
+    color: white;
+    padding: 15px 15px;
+
+}
+.branding-four{
+ 	background: url(../img/rocket.png);
+ 	background-repeat: no-repeat;
+    background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.branding-four h2{
+    text-align: center;
+    color: white;
+    padding: 145px 0px 0px 0px;
+}
+.branding-four p{
+    text-align: center;
+    color: white;
+    padding: 15px 15px;
+}
+/*Team section*/
+.team{
+    width: 100%;
+    float: left;	
+}
+.team-top{
+    height: 600px;
+	background-color: #D3D3D3;
+	margin: 0 auto;
+}
+.team-top h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px 20px 0px;
+}
+.team-top span{
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 16%;
+}
+.team-top p{
+	text-align: center;
+    font-size: 20px;
+    padding: 15px 0px 80px 0px;
+}
+.team-branding{
+	background-color: #D3D3D3;
+	margin: 0 auto;
+}
+.team-one{
+ 	background: url(../img/team-one.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.team-one h2{
+    text-align: center;
+    color: black;
+    padding: 145px 0px 0px 9px;
+}
+.team-one h3{
+    color: #673AB7;
+    padding: 0px 47px;
+}
+.team-one p{
+	text-align: center;
+	color: black;
+	padding: 15px 15px;
+	font-size: 17px;
+}
+.icons{
+	
+}
+
+.icons ul{
+	list-style: none;
+}
+
+.icons ul li{
+    display: inline-block;
+    margin: 5px 12px;
+    padding: 0px 0px 0px 6px;	
+}
+
+.fa.fa-facebook{
+    background: #9E9E9E;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+.fa.fa-linkedin{
+    background: #9E9E9E;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+.fa.fa-twitter{
+	background: #9E9E9E;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 40%
+}
+.fa.fa-envelope-o{
+	background: #9E9E9E;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 30%	
+}
+.team-two{
+ 	background: url(../img/team-four.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.team-two h2{
+    text-align: center;
+    color: black;
+    padding: 145px 0px 0px 9px;
+}
+.team-two h3{
+	color: #673AB7;
+	padding: 0px 47px;
+}
+.team-two p{
+	text-align: center;
+	color: black;
+	padding: 15px 15px;
+    font-size: 17px;
+}
+.icons{
+	
+}
+
+.icons ul{
+	list-style: none;
+}
+
+.icons ul li{
+    display: inline-block;
+    margin: 5px 12px;	
+}
+
+.fa.fa-facebook{
+    background: #9E9E9E;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+.fa.fa-linkedin{
+    background: #9E9E9E;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+.fa.fa-twitter{
+	background: #9E9E9E;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 40%
+}
+.fa.fa-envelope-o{
+	background: #9E9E9E;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 30%	
+}
+.team-three{
+ 	background: url(../img/team-three.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.team-three h2{
+    text-align: center;
+    color: black;
+    padding: 145px 0px 0px 9px;
+}
+.team-three h3{
+	color: #673AB7;
+	padding: 0px 47px;
+}
+.team-three p{
+    text-align: center;
+    color: black;
+    padding: 15px 15px;
+    font-size: 17px;
+}
+.icons{
+	
+}
+
+.icons ul{
+	list-style: none;
+}
+
+.icons ul li{
+    display: inline-block;
+    margin: 5px 12px;	
+}
+
+.fa.fa-facebook{
+    background: #9E9E9E;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+.fa.fa-linkedin{
+    background: #9E9E9E;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+.fa.fa-twitter{
+	background: #9E9E9E;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 40%
+}
+.fa.fa-envelope-o{
+	background: #9E9E9E;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 30%	
+}
+.team-four{
+ 	background: url(../img/team-four.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.team-four h2{
+    text-align: center;
+    color: black;
+    padding: 145px 0px 0px 9px;
+}
+.team-four h3{
+	color: #673AB7;
+	padding: 0px 47px;
+}
+.team-four p{
+    text-align: center;
+    color: black;
+    padding: 15px 15px;
+    font-size: 17px;
+}
+.icons{
+	
+}
+
+.icons ul{
+	list-style: none;
+}
+
+.icons ul li{
+    display: inline-block;
+    margin: 5px 12px;	
+}
+
+.fa.fa-facebook{
+    background: #9E9E9E;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+.fa.fa-linkedin{
+    background: #9E9E9E;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+.fa.fa-twitter{
+	background: #9E9E9E;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 40%
+}
+.fa.fa-envelope-o{
+	background: #9E9E9E;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 30%	
+}
+
+/*Skills section*/
+.skills{
+    width: 100%;
+    float: left;
+}
+.skills-top{
+    background-color: #FFFFFF;
+    height: 510px;
+    width: 100%;
+    float: left;
+}
+.skills-top h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px 20px 0px;   
+}
+.skills-top span{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 16%;   
+}
+.skills-top p{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0px 80px 0px;   
+}
+.skills-banner{
+
+}
+.skill-one{
+    background: url(../img/orange.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.skill-one h2{
+    text-align: center;   
+    padding: 70px 0px 70px 0px;
+}
+.skill-one p{
+    text-align: center;
+    color: black;
+    padding: 15px 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.skill-two{
+    background: url(../img/graphics_green.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.skill-two h2{
+    text-align: center;   
+    padding: 70px 0px 70px 0px;
+}
+.skill-two p{
+    text-align: center;
+    color: black;
+    padding: 15px 15px;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.skill-three{
+    background: url(../img/orange.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.skill-three h2{    
+    text-align: center;   
+    padding: 70px 0px 70px 0px;
+}
+.skill-three p{
+    text-align: center;
+    color: black;
+    padding: 15px 15px;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.skill-four{
+    background: url(../img/pink.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 200px;
+    width: 24%;
+    float: left;
+}
+.skill-four h2{
+    text-align: center;   
+    padding: 70px 0px 70px 0px;
+}
+.skill-four p{
+    text-align: center;
+    color: black;
+    padding: 15px 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/*Portfolio section*/
+
+.portfolio{   
+    width: 100%;
+    float: left;
+}
+.portfolio-top{
+    background-color: #FFDD99;
+    height: 1100px;
+}
+.portfolio-top h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px 20px 0px;
+}
+.portfolio-top span{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 16%;   
+}
+.portfolio-top p{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0px 80px 0px;   
+}
+.boxed-one{
+    margin: -43px 704px 0px 365px;
+    border:1px ;
+    border-collapse: separate;
+    background-color: #C7AC75;
+}
+
+.boxed-one p{
+    color: white;
+    padding: 10px;
+
+}
+.boxed-two{
+    margin: -43px 589px 0px 468px;
+    border:1px ;
+    border-collapse: separate;
+    background-color: #C7AC75;
+}
+.boxed-two p{
+    color: white;
+    padding: 10px;
+}
+.boxed-three{
+    margin: -43px 401px 0px 580px;
+    border:1px ;
+    border-collapse: separate;
+    background-color: #C7AC75;
+}
+.boxed-three p{
+    color: white;
+    padding: 10px;
+}
+.boxed-four{
+    margin: -43px 315px 0px 766px;
+    border:1px ;
+    border-collapse: separate;
+    background-color: #C7AC75;
+}
+.boxed-four p{
+    color: white;
+    padding: 10px;
+}
+.laptop-part-one{
+
+}
+.laptop-img-one{
+    background: url(../img/portfolio_one.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin: 20px 0px 0px 30px;
+}
+.laptop-img-one h2{
+    font-size: 25px;
+    text-align: center;   
+    padding: 315px 0px 70px 0px;   
+}
+.laptop-img-two{
+    background: url(../img/portfolio_two.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin: 20px 0px 0px 30px;
+}
+.laptop-img-two h2{
+    font-size: 25px;
+    text-align: center;   
+    padding: 315px 0px 70px 0px;   
+}
+.laptop-part-two{
+
+}
+.laptop-image-one{
+    background: url(../img/portfolio_three.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin: 60px 0px 0px 30px;
+}
+.laptop-image-one h2{
+    font-size: 25px;
+    text-align: center;   
+    padding: 315px 0px 70px 0px;   
+}
+.laptop-image-two{
+    background: url(../img/portfolio_four.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin: 60px 0px 95px 30px;
+}
+.laptop-image-two h2{
+    font-size: 25px;
+    text-align: center;   
+    padding: 315px 0px 70px 0px; 
+}
+.submit-btn{
+    margin: 0 auto;
+    display: block;
+    background-color: #30D0C1;
+    padding: 16px;
+    border: none;
+    box-shadow: 0px 4px 0px #009688;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/*Review section*/
+
+.review{
+    width: 100%;
+    float: left;
+}
+.review-top{
+    background-color: #D74680;
+    height: 650px;
+    width: 100%;
+    float: left;
+}
+.review-top h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px 20px 0px;
+}
+.review-top span{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 16%;   
+}
+.review-top p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0px 0px 0px;   
+}
+
+.review-part-one{
+
+}
+.review-img-one{
+    background: url(../img/team-four.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin: -20px 0px 0px 30px;
+}
+.review-img-one p{
+    color: white;
+    padding: 112px 0px 0px 125px;
+}
+.review-img-one h2{
+    color: white;
+    text-align: center;   
+    padding: 24px 5px 3px 0px;      
+}
+.review-img-one h3{
+    color: #FFEB3B;
+    padding: 0px 0px 0px 148px;
+}
+.review-img-two{
+    background: url(../img/team-four.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin: -20px 0px 0px 30px;
+}
+.review-img-two p{
+    color: white;
+    padding: 112px 0px 0px 125px;
+}
+.review-img-two h2{
+    color: white;
+    text-align: center;   
+    padding: 24px 5px 3px 0px;      
+}
+.review-img-two h3{
+    color: #FFEB3B;
+    padding: 0px 0px 0px 148px;
+}
+.review-part-two{
+
+}
+.review-image-one{
+    background: url(../img/team-four.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin: -65px 0px 0px 30px;
+}
+.review-image-one p{
+    color: white;
+    padding: 112px 0px 0px 125px;
+}
+.review-image-one h2{
+    color: white;
+    text-align: center;   
+    padding: 24px 5px 3px 0px;   
+}
+.review-image-one h3{
+    color: #FFEB3B;
+    padding: 0px 0px 0px 148px;
+}
+.review-image-two{
+    background: url(../img/team-four.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin: -65px 0px 95px 30px;
+}
+.review-image-two p{
+    color: white;
+    padding: 112px 0px 0px 125px;
+}
+.review-image-two h2{
+    color: white;
+    text-align: center;   
+    padding: 24px 5px 3px 0px;    
+}
+.review-image-two h3{
+    color: #FFEB3B;
+    padding: 0px 0px 0px 148px;
+}
+
+/*Get In Touch section*/
+
+.get-in-touch{    
+    width: 100%;
+    float: left;
+}
+.get-in-touch-top{
+    background-color: #3C5499;
+    height: 645px;
+}
+.get-in-touch-top h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0px 20px 0px;
+}
+.get-in-touch-top span{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 16%;   
+}
+.get-in-touch-top p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 0px 0px 0px;   
+}
+.get-in-touch-top h4{
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+.form-control-1{
+    background-color: #0D3252;
+    width: 30%;
+    height: 20px;
+    padding: 5px 0px 5px 13px;
+    margin: 15px 0px 35px 155px;
+    border: none;
+}
+.form-control-2{
+    background-color: #0D3252;
+    width: 30%;
+    height: 20px;
+    padding: 5px 0px 5px 13px;
+    margin: 15px 0px 35px 38px;
+    border: none;
+}
+.form-control-3{
+    background-color: #0D3252;
+    width: 65%;
+    height: 200px;
+    margin: 0px 0px 0px 156px;
+    padding: 8px 0px 0px 11px;
+    border: none;
+}
+.get-in-touch-submit-btn{
+    margin: 40px 0px 0px 442px;
+    display: block;
+    background-color: #30D0C1;
+    padding: 16px;
+    border: none;
+    box-shadow: 0px 4px 0px #009688;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 17px;
+    cursor: pointer;
+}
+.get-in-touch-menu{
+    height: 80px;
+    width: 100%;
+    float: left;
+    background-color: #344B8E;    
+    margin: 45px 0px 0px 0px;    
+}
+
+.get-in-touch-menu nav ul{
+    list-style: none;
+        padding: 30px 0px 0px 0px;
+}
+
+.get-in-touch-menu nav ul li {
+    display: inline-block;
+    margin: 0px 20px 0px 60px;
+}
+
+.get-in-touch-menu nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
